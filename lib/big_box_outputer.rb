@@ -1,5 +1,13 @@
 class BigBoxOutputer
-  def output_question(question:, from_language:, to_language:)
+  attr_reader :from_language, :to_language
+  private :from_language, :to_language
+
+  def initialize(from_language:, to_language:)
+    @from_language = from_language
+    @to_language = to_language
+  end
+
+  def output_question(question:)
     puts "-" * 40
     puts "| What is the #{to_language} for " + question.colorize(:yellow) + "?"
     puts "-" * 40

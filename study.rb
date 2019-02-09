@@ -30,9 +30,7 @@ class Study
       word_pair = word_list.random_pair
       question = word_pair.from
 
-      outputers.each { |outputer| outputer.output_question(question: question,
-                                                           from_language: from_language,
-                                                           to_language: to_language) }
+      outputers.each { |outputer| outputer.output_question(question: question) }
 
       given_answer = gets.chomp
       @total += 1
@@ -77,8 +75,13 @@ class Study
   end
 end
 
+from_language = "German"
+to_language = "English"
 Study.new(
-  outputers: [BigBoxOutputer.new, AppleSayOutputer.new],
-  from_language: "German",
-  to_language: "English"
+  outputers: [
+    BigBoxOutputer.new(from_language: from_language, to_language: to_language),
+    AppleSayOutputer.new(from_language: from_language, to_language: to_language)
+  ],
+  from_language: from_language,
+  to_language: to_language
 ).run
