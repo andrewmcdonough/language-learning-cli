@@ -36,7 +36,7 @@ bundle install
 ## Running study mode
 
 ```
-bundle exec study.rb
+bundle exec ruby study.rb
 ```
 
 ## Running tests
