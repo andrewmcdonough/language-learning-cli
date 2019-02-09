@@ -1,0 +1,10 @@
+# Nouns
+der Stuhl - the chair
+die Wohnung - the flat
+die Schlüssel - the key
+das Werkzeug - the Tool
+
+# Verbs
+treffen - to meet
+schlafen - to sleep
+wohnen - to live

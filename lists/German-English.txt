@@ -1,0 +1,316 @@
+# Questions
+was - what
+wo/woher - where
+warum - why
+wann - when
+wer - who
+wem - whom
+wie - how
+wie viel - how much
+wie veile - how many
+
+# Answers 
+eigentlich nicht - not really
+
+# Nouns
+der Stuhl - the chair
+die Wohnung - the flat
+die Schlüssel - the key
+das Werkzeug - the Tool
+das Fahrzeug - the vehicle
+das Zeug - the stuff
+der Körper - body
+das Feuerzeug - the lighter
+das Flugzeug - the plane
+der Teil - part
+das Spielzeug - the toy
+die Decke - the blanket
+die Ecke - the corner
+das Obst - the fruit
+die Blume - flower
+der Mann - man
+die Frau - woman
+das Mädchen - girl
+das Kind - child
+das Mädchen - the girl
+der Lehrer - the teacher
+die Zeitung - the newspaper
+das Telefonbuch - phone book
+der Tisch - the table
+die Kreditkarte - credit card
+das Buch - the book
+das Hörbüch - Audio book
+der Erwachsener - adult
+die Eigentumswohnungen - condo
+das Kapitel - chapter
+der Gegner - the opponent
+die Führung - leadership
+die Mehrheit - the majority
+
+# Verbs
+treffen - to meet
+schlafen - to sleep
+wohnen - to live
+bekommen - to get
+denken - to think
+drücken - to press
+drehen - to turn
+brauchen - to need
+benutzen - to use
+spielen - to play
+beweisen - to prove
+bezahlen - to pay
+schmecken - to taste
+sein - to be
+werden - to become
+wiederholen - to repeat
+geben - to give
+hear - hören
+helfen - to help
+behalten - to keep
+wissen - to know
+verlassen - leave
+lassen - to let
+sitzen - to sit
+langweilen - to bore
+ringen - to wrestle
+schlagen - to beat
+
+# Conjunctions
+
+## Coodinate Conjunctions (Koordinierende Konjunktionen)
+da - because/since
+und - and
+oder - or
+denn - because
+aber - but
+sodern - but (instead/rather)
+
+
+# Adverbs
+immer - always
+noch nie - never
+seit - since
+bis um - until
+erneut - again
+über - over
+soll - should
+manche - Some
+alleine - alone
+noch - still
+zusammen - together
+Fertig - finished/ready
+Vielleicht - maybe
+Schade - pity
+Kaum - barely
+Dickmacher - fattening foods
+Wirkung - effect
+Geist - mind
+Der Baum - the tree
+süß- sweet
+Öl - oil
+Zum mit namen - to take away
+Eigen - own
+Eigentums - property
+wohnungen - apartment
+Mietwohnungen - to rent a flat
+fing - started
+
+Nieder - low
+Hinunter - down
+voll - full
+leer - empty
+Gegensatz - opposite 
+
+jetzt - now
+schnell - fast
+
+
+# Food
+das Essen - the food
+das Mittagessen - lunch
+das Bier - beer
+der Reis - rice
+der Fisch - fish
+der Wein - wine
+die Milch - milk
+die Küche - kitchen
+der Kaffee - coffee
+der Pilz - mushroom
+die tasse - tea
+das Gemüse - vegetables
+der Käse - cheese
+das Obst - fruit
+die Schokolade - chocolate
+die Nudeln - pasta
+die Erdbeere - strawberry
+die Orange - orange
+die Tomate - tomato
+das Salz - salt
+das Hähnchen - chicken
+die Kartoffel - potato
+das Apfelsaft - apple juice
+die Zitrone -  lemon
+der Zucker - sugar
+das Fleisch - meat
+der Blumenkohl - cauliflower
+der Broccoli - broccoli
+der Knoblauch - garlic
+der Kürbis - pumpkin
+der Apfel - the apple
+das Wasser - the water
+der Orangensaft - orange juice
+die Erdbeere - strawberry
+das Brot - the bread
+der Käsesandwich - cheese sandwich
+der Fischsandwich - fish sandwich
+der Hähnchensandwich - chicken sandwich
+das Restaurant - restaurant
+der Ziegenkase - goats cheese
+der Lauch - leek
+der Mais - corn
+der Mangold - chard
+der Paprika - pepper
+die Kokosnuss - the coconut
+der Reis - rice
+die erdnuss - peanut
+die Rühreier - scrambled eggs
+das Anstandstück - the last piece
+der Vegetarier - vegetarian
+das Rezept - the receipt
+das Menü - menu
+der Getränk - drink
+das Frühstück - breakfast
+das Mittagessen - lunch
+das Abendessen - dinner
+
+## Animals
+der Hund - gog
+das Pferd - horse
+der Bär - bear
+das Tier - animal
+die Katze - cat
+der Vogel - bird
+die Ente - duck
+die Maus - mouse
+die Fliege - fly
+die Kuh - cow
+die Biene - bee
+das Insekt - insect
+das Haustier - pet
+das Tiere - animal
+
+# Adjectives
+mehr - more
+weniger - less
+spät - late
+früh - early
+neu - new
+alt - old
+jung - young
+laut - noisy
+ruhig - quiet
+schön - beautiful
+hässlich - ugly
+einfach - easy
+schwer - difficult/hard
+weit - far
+nahe - near
+fertig - finished
+bereit - ready
+wichtig - important
+gesund - healthy
+ungesund - unhealthy
+lustig - funny
+ernst - serious
+teuer - expensive
+billig - cheap
+kostenlos - free of charge
+langsam - slow
+schnell - fast
+interessant - interesting
+langweilig - boring
+kurz - short
+lange - long
+stark - strong
+schwach - weak
+voll - full
+leeren - empty
+hoch - high
+niedrig - low
+schlecht - bad
+gut - good
+wichtig - important
+
+klar - clear
+unclear - unklar
+positiv - positive
+negativ - negative
+
+richtig - right
+falsch - wrong
+leichte - light
+schwer - heavy
+
+frie - free
+Perfekt - perfect
+weiß - white
+nützlich - useful
+praktisch - practical
+normal - normal
+einfach - simply
+möglich - possible
+
+süß - sweet
+salzig - salty
+sauer - sour
+lecker - tasty
+gebratene - fried
+eingelegter - pickled
+gegrilltes - grilled
+gebacken - baked
+frittiert - deep fried
+gekocht - boiled
+sautiert - sauteed
+
+# Prepositions
+an - at
+am - at the
+bei - at
+beim - at the 
+in - in
+im - in the
+auf - on
+unter - under
+mit (+dative) - with
+aus - out
+unter - under
+um - around
+zu - to
+zum - to the
+vor - in front/before
+hinter - behind
+
+# Sentences/common phrases
+Ich habe Durst - I'm thirsty
+Mach’s gut - take it easy
+Oder - isn’t that true
+Einverstanden - agreed
+Viel Glück - good luck
+Toll - great
+Quatsch - nonsense
+Wie, bitte - pardon
+Macht nichts - never mind
+Nicht der Rede wit - don’t mention it
+Bis dann - see you then
+Späti - late night shop
+Ich verstehe nur ein bisschen Deutsch - I only understand a little German
+
+## "Nie" vs "Niemals": nie = never, niemals = never ever
+ich bin immer zu spät - I am always late
+Ich bin immer früh - I am always early
+ich bin niemals zu spät - I am never late
+Ich bin nie früh - I am never early
+
+wie gehts dir - how are you? (informal)
+wie geht's Ihnen?- how are you (formal)
