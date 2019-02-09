@@ -2,19 +2,22 @@
 
 require "colorize"
 require_relative "./lib/word_list"
+require_relative "./lib/big_box_outputer"
+require_relative "./lib/apple_say_outputer"
 
 class Study
-  attr_reader :from, :to
+  attr_reader :from_language, :to_language, :outputers
 
-  def initialize(from:, to:)
-    @from = from
-    @to = to
+  def initialize(from_language:, to_language:, outputers:)
+    @from_language = from_language
+    @to_language = to_language
+    @outputers = outputers
     @total = 0
     @score = 0
   end
 
   def list
-    "./lists/#{from}-#{to}.txt"
+    "./lists/#{from_language}-#{to_language}.txt"
   end
 
   def word_list
@@ -26,16 +29,21 @@ class Study
     loop do
       word_pair = word_list.random_pair
       question = word_pair.from
-      display(question)
-      say(question)
+
+      outputers.each { |outputer| outputer.output_question(question: question,
+                                                           from_language: from_language,
+                                                           to_language: to_language) }
+
       given_answer = gets.chomp
       @total += 1
 
       if word_pair.correct_answer?(given_answer)
         @score += 1
-        display_correct
+        outputers.each{ |outputer| outputer.output_correct(score: @score, total: @total) }
       else
-        display_incorrect(correct_answer: word_pair.to)
+        outputers.each{ |outputer| outputer.output_incorrect(correct_answer: word_pair.to,
+                                                             score: @score,
+                                                             total: @total) }
       end
     end
   end
@@ -70,6 +78,7 @@ class Study
 end
 
 Study.new(
-  from: "German",
-  to: "English"
+  outputers: [BigBoxOutputer.new, AppleSayOutputer.new],
+  from_language: "German",
+  to_language: "English"
 ).run
