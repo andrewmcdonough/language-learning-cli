@@ -8,9 +8,10 @@ class WordList
   end
 
   def pairs
-    text.split("\n").map { |line|
-      WordPair.load(line)
-    }
+    text
+      .split("\n")
+      .reject {|line| line =~ /^#/ || line.empty? }
+      .map { |line| WordPair.load(line) }
   end
 
   def random_pair
