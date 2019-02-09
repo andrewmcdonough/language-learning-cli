@@ -15,10 +15,12 @@ class BigBoxOutputer
   end
 
   def output_correct(score:, total:)
-    puts "Correct! (#{score}/#{total})".colorize(:green)
+    puts "\nCorrect! (#{score}/#{total})".colorize(:green)
+    puts "\n"
   end
 
   def output_incorrect(correct_answer:, score:, total:)
-    puts  "WRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
+    puts  "\nWRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
+    puts "\n"
   end
 end
