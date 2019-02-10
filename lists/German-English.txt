@@ -149,7 +149,7 @@ die Tomate - tomato
 das Salz - salt
 das Hähnchen - chicken
 die Kartoffel - potato
-das Apfelsaft - apple juice
+der Apfelsaft - apple juice
 die Zitrone -  lemon
 der Zucker - sugar
 das Fleisch - meat
