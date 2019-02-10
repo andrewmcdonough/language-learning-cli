@@ -44,5 +44,12 @@ RSpec.describe WordPair do
       it { is_expected.to be_correct_answer("difficult") }
       it { is_expected.to be_correct_answer("hard") }
     end
+
+    context "where there are brackets" do
+      let(:pair_text) { "wie gehts dir - how are you? (informal)" }
+
+      it { is_expected.to be_correct_answer("how are you") }
+      it { is_expected.to be_correct_answer("how are you?") }
+    end
   end
 end

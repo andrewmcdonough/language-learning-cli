@@ -23,6 +23,7 @@ class WordPair
     word
       .strip
       .downcase
+      .gsub(/\(.*\)/,'')
       .gsub(/^the/,'')
       .gsub(/^a/,'')
       .gsub(/^to/,'')
