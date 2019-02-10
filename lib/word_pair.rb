@@ -12,7 +12,11 @@ class WordPair
   end
 
   def correct_answer?(given_answer)
-    simplify(to) == simplify(given_answer)
+    possible_answers.any? {|answer| simplify(answer) == simplify(given_answer) }
+  end
+
+  def possible_answers
+    to.split("/")
   end
 
   def simplify(word)
