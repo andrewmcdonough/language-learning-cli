@@ -31,7 +31,10 @@ class BigBoxOutputer
   end
 
   def output_incorrect(correct_answer:, score:, total:)
-    output BR + "WRONG! (#{score}/#{total})\nThe correct answer is ".colorize(:red) + correct_answer.colorize(:magenta) + BR
+    output(
+      BR + "WRONG! (#{score}/#{total})\nThe correct answer is ".colorize(:red) +
+      correct_answer.colorize(:magenta) + BR
+    )
   end
 
   private

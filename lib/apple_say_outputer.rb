@@ -19,11 +19,11 @@ class AppleSayOutputer
     say(question, language: from_language)
   end
 
-  def output_correct(score:, total:)
+  def output_correct(*)
     say("Correct!", language: to_language)
   end
 
-  def output_incorrect(correct_answer:, score:, total:)
+  def output_incorrect(*)
     say("Incorrect!", language: to_language)
   end
 

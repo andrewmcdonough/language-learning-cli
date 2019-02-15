@@ -9,7 +9,7 @@ class WordPair
   end
 
   def self.load(input)
-    (from, to) = input.split /\s*-\s*/
+    (from, to) = input.split(/\s*-\s*/)
     new(from: from, to: to)
   end
 
