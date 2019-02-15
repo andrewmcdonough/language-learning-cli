@@ -18,11 +18,11 @@ class AppleSayOutputer
   end
 
   def output_correct(score:, total:)
-    say("🎊 ", language: to_language)
+    say("Correct!", language: to_language)
   end
 
   def output_incorrect(correct_answer:, score:, total:)
-    say("💩 ", language: to_language)
+    say("Incorrect!", language: to_language)
   end
 
   private
