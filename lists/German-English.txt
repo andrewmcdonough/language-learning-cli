@@ -185,7 +185,7 @@ das Mittagessen - lunch
 das Abendessen - dinner
 
 ## Animals
-der Hund - gog
+der Hund - dog
 das Pferd - horse
 der Bär - bear
 das Tier - animal
@@ -243,7 +243,7 @@ gut - good
 wichtig - important
 
 klar - clear
-unclear - unklar
+unklar - unclear
 positiv - positive
 negativ - negative
 
