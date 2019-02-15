@@ -2,9 +2,9 @@
 # frozen_string_literal: true
 
 require "colorize"
-require_relative "./lib/word_list"
-require_relative "./lib/big_box_outputer"
-require_relative "./lib/apple_say_outputer"
+require_relative "./word_list"
+require_relative "./big_box_outputer"
+require_relative "./apple_say_outputer"
 
 class Study
   attr_reader :from_language, :to_language, :outputers
@@ -51,14 +51,3 @@ class Study
     end
   end
 end
-
-from_language = "German"
-to_language = "English"
-Study.new(
-  outputers: [
-    BigBoxOutputer.new(from_language: from_language, to_language: to_language, output_stream: STDOUT),
-    AppleSayOutputer.new(from_language: from_language, to_language: to_language)
-  ],
-  from_language: from_language,
-  to_language: to_language
-).run
