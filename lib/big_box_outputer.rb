@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'colorize'
 
 class BigBoxOutputer
@@ -5,9 +7,9 @@ class BigBoxOutputer
   private :from_language, :to_language, :output_stream
 
   HR_WIDTH = 40
-  HORIZONTAL_BOX_CHAR = "-".freeze
-  VERTICAL_BOX_CHAR = "|".freeze
-  BR = "\n".freeze
+  HORIZONTAL_BOX_CHAR = "-"
+  VERTICAL_BOX_CHAR = "|"
+  BR = "\n"
   HR = HORIZONTAL_BOX_CHAR * HR_WIDTH.freeze
 
   def initialize(from_language:, to_language:, output_stream:)
@@ -18,9 +20,9 @@ class BigBoxOutputer
 
   def output_question(question:)
     output(
-     HR + BR +
-     VERTICAL_BOX_CHAR + " What is the #{to_language} for " + question.colorize(:yellow) + "?" + BR +
-     HR + BR
+      HR + BR +
+      VERTICAL_BOX_CHAR + " What is the #{to_language} for " + question.colorize(:yellow) + "?" + BR +
+      HR + BR
     )
   end
 

@@ -23,58 +23,32 @@ class Study
 
   def word_list
     @word_list ||=
-      WordList.new(text: open(list).read)
+      WordList.new(text: File.open(list).read)
   end
 
   def run
     loop do
       word_pair = word_list.random_pair
-      question = word_pair.from
-
-      outputers.each { |outputer| outputer.output_question(question: question) }
-
-      given_answer = gets.chomp
-      @total += 1
-
-      if word_pair.correct_answer?(given_answer)
-        @score += 1
-        outputers.each { |outputer| outputer.output_correct(score: @score, total: @total) }
-      else
-        outputers.each do |outputer|
-          outputer.output_incorrect(correct_answer: word_pair.to,
-                                    score: @score,
-                                    total: @total)
-        end
-      end
+      ask_question(word_pair)
+      check_answer(word_pair)
     end
   end
 
-  def display_correct
-    puts "Correct! (#{@score}/#{@total})".colorize(:green)
+  def ask_question(word_pair)
+    outputers.each { |outputer| outputer.output_question(question: word_pair.from) }
   end
 
-  def display_incorrect(correct_answer:)
-    puts "WRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
-  end
-
-  def insert_spacing
-    puts "\n"
-    puts "\n"
-    puts "*" * 80
-    puts "\n"
-    puts "\n"
-  end
-
-  def display(question)
-    puts "-" * 40
-    puts "| What is the #{to} for " + question.colorize(:yellow) + "?"
-    puts "-" * 40
-    puts "\n"
-  end
-
-  def say(question)
-    say_cmd = "echo \"#{question}\" | say -v Anna"
-    `#{say_cmd}`
+  def check_answer(word_pair)
+    given_answer = gets.chomp
+    @total += 1
+    if word_pair.correct_answer?(given_answer)
+      @score += 1
+      outputers.each { |outputer| outputer.output_correct(score: @score, total: @total) }
+    else
+      outputers.each do |outputer|
+        outputer.output_incorrect(correct_answer: word_pair.to, score: @score, total: @total)
+      end
+    end
   end
 end
 
