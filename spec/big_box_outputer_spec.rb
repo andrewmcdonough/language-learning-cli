@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/big_box_outputer'
 
 RSpec.describe BigBoxOutputer do
@@ -5,9 +7,11 @@ RSpec.describe BigBoxOutputer do
   let(:from_language) { "German" }
   let(:to_language) { "English" }
 
-  subject { described_class.new(from_language: from_language,
-                                to_language: to_language,
-                                output_stream: output_stream) }
+  subject do
+    described_class.new(from_language: from_language,
+                        to_language: to_language,
+                        output_stream: output_stream)
+  end
 
   describe 'outputs questions' do
     let(:question) { "Hallo" }
@@ -19,8 +23,8 @@ RSpec.describe BigBoxOutputer do
         ----------------------------------------
         | What is the English for #{yellow_hallo}?
         ----------------------------------------
-        OUTPUT
-      )
+      OUTPUT
+                                                        )
     end
   end
 
@@ -32,9 +36,8 @@ RSpec.describe BigBoxOutputer do
     it 'gives the score' do
       expect(output_stream).to have_received(:puts).with(<<~OUTPUT
         Correct! (1/3)
-        OUTPUT
-        .colorize(:green)
-      )
+      OUTPUT
+        .colorize(:green))
     end
   end
 
@@ -46,9 +49,9 @@ RSpec.describe BigBoxOutputer do
 
     it 'gives the corrrect answer' do
       expect(output_stream).to have_received(:puts).with(<<~OUTPUT
-        \e[0;31;49m\nWRONG! The correct answer is \e[0m\e[0;35;49mhello\e[0m
-        OUTPUT
-      )
+        \n\e[0;31;49mWRONG! (1/3)\nThe correct answer is \e[0m\e[0;35;49mhello\e[0m
+      OUTPUT
+                                                        )
     end
   end
 end

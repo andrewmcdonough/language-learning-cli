@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 class AppleSayOutputer
   VOICES = {
     English: "Daniel",
     German: "Anna"
-  }
+  }.freeze
   # Find more voices by running `say -v ?` in the terminal
 
   attr_reader :from_language, :to_language

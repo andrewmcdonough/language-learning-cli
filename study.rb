@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require "colorize"
 require_relative "./lib/word_list"
@@ -37,11 +38,13 @@ class Study
 
       if word_pair.correct_answer?(given_answer)
         @score += 1
-        outputers.each{ |outputer| outputer.output_correct(score: @score, total: @total) }
+        outputers.each { |outputer| outputer.output_correct(score: @score, total: @total) }
       else
-        outputers.each{ |outputer| outputer.output_incorrect(correct_answer: word_pair.to,
-                                                             score: @score,
-                                                             total: @total) }
+        outputers.each do |outputer|
+          outputer.output_incorrect(correct_answer: word_pair.to,
+                                    score: @score,
+                                    total: @total)
+        end
       end
     end
   end
@@ -51,7 +54,7 @@ class Study
   end
 
   def display_incorrect(correct_answer:)
-    puts  "WRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
+    puts "WRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
   end
 
   def insert_spacing

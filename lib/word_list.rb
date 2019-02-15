@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative './word_pair'
 
 class WordList
@@ -10,7 +12,7 @@ class WordList
   def pairs
     text
       .split("\n")
-      .reject {|line| line =~ /^#/ || line.empty? }
+      .reject { |line| line =~ /^#/ || line.empty? }
       .map { |line| WordPair.load(line) }
   end
 

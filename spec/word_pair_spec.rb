@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "word_pair"
 
 RSpec.describe WordPair do
