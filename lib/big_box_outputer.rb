@@ -1,26 +1,34 @@
-class BigBoxOutputer
-  attr_reader :from_language, :to_language
-  private :from_language, :to_language
+require 'colorize'
 
-  def initialize(from_language:, to_language:)
+class BigBoxOutputer
+  attr_reader :from_language, :to_language, :output_stream
+  private :from_language, :to_language, :output_stream
+
+  def initialize(from_language:, to_language:, output_stream:)
     @from_language = from_language
     @to_language = to_language
+    @output_stream = output_stream
   end
 
   def output_question(question:)
-    puts "-" * 40
-    puts "| What is the #{to_language} for " + question.colorize(:yellow) + "?"
-    puts "-" * 40
-    puts "\n"
+    output(
+     "-" * 40 + "\n" +
+     "| What is the #{to_language} for " + question.colorize(:yellow) + "?" + "\n" +
+     "-" * 40 + "\n"
+    )
   end
 
   def output_correct(score:, total:)
-    puts "\nCorrect! (#{score}/#{total})".colorize(:green)
-    puts "\n"
+    output "\nCorrect! (#{score}/#{total})".colorize(:green)
+    output "\n"
   end
 
   def output_incorrect(correct_answer:, score:, total:)
-    puts  "\nWRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
-    puts "\n"
+    output  "\nWRONG! The correct answer is ".colorize(:red) + correct_answer.colorize(:magenta)
+    output "\n"
+  end
+
+  def output(text)
+    output_stream.puts(text)
   end
 end

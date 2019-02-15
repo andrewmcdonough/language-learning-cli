@@ -79,7 +79,7 @@ from_language = "German"
 to_language = "English"
 Study.new(
   outputers: [
-    BigBoxOutputer.new(from_language: from_language, to_language: to_language),
+    BigBoxOutputer.new(from_language: from_language, to_language: to_language, output_stream: STDOUT),
     AppleSayOutputer.new(from_language: from_language, to_language: to_language)
   ],
   from_language: from_language,
