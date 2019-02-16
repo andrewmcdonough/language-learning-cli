@@ -53,5 +53,14 @@ RSpec.describe WordPair do
       it { is_expected.to be_correct_answer("how are you") }
       it { is_expected.to be_correct_answer("how are you?") }
     end
+
+    context "where the pair has capitals" do
+      let(:pair_text) { "das Werkzeug - the Tool" }
+
+      it { is_expected.to be_correct_answer("the tool") }
+      it { is_expected.to be_correct_answer("the Tool") }
+      it { is_expected.to be_correct_answer("tool") }
+      it { is_expected.to be_correct_answer("Tool") }
+    end
   end
 end

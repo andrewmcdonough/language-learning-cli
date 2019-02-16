@@ -23,12 +23,11 @@ class WordPair
 
   def simplify(word)
     word
-      .strip
       .downcase
       .gsub(/\(.*\)/, '')
-      .gsub(/^the/, '')
-      .gsub(/^a/, '')
-      .gsub(/^to/, '')
+      .gsub(/^the /, '')
+      .gsub(/^a /, '')
+      .gsub(/^to /, '')
       .gsub(/s$/, '')
       .gsub(/\W/, '')
       .strip
