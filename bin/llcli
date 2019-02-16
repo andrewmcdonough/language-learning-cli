@@ -1,12 +1,15 @@
 #!/usr/bin/env ruby
 
+require 'curses'
 require_relative '../lib/study'
+require_relative '../lib/concise_outputer'
+require_relative '../lib/apple_say_outputer'
 
 from_language = "German"
 to_language = "English"
 Study.new(
   outputers: [
-    BigBoxOutputer.new(from_language: from_language, to_language: to_language, output_stream: STDOUT),
+    ConciseOutputer.new(from_language: from_language, to_language: to_language, output_stream: STDOUT),
     AppleSayOutputer.new(from_language: from_language, to_language: to_language)
   ],
   from_language: from_language,
