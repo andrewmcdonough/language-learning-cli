@@ -10,6 +10,11 @@ StringLiterals:
 Documentation:
   Enabled: false
 
-
 Metrics/BlockLength:
   ExcludedMethods: ["describe", "context", "feature"]
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15

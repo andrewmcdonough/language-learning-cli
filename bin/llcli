@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'curses'
 require_relative '../lib/study'
 require_relative '../lib/concise_outputer'
 require_relative '../lib/apple_say_outputer'
