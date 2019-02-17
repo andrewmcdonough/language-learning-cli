@@ -65,7 +65,7 @@ sein - to be
 werden - to become
 wiederholen - to repeat
 geben - to give
-hear - hören
+hören - to hear
 helfen - to help
 behalten - to keep
 wissen - to know
@@ -248,7 +248,7 @@ positiv - positive
 negativ - negative
 
 richtig - right
-falsch - wrong
+falsch - wrong/false
 leichte - light
 schwer - heavy
 
