@@ -113,7 +113,7 @@ Zum mit namen - to take away
 Eigen - own
 Eigentums - property
 wohnungen - apartment
-Mietwohnungen - to rent a flat
+Mietwohnungen - to rent a flat/to rent an apartment
 fing - started
 
 Nieder - low
@@ -292,7 +292,7 @@ vor - in front/before
 hinter - behind
 
 # Sentences/common phrases
-Ich habe Durst - I'm thirsty
+Ich habe Durst - I'm thirsty/I am thirsty
 Mach’s gut - take it easy
 Oder - isn’t that true
 Einverstanden - agreed
