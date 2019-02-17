@@ -6,13 +6,24 @@ wann - when
 wer - who
 wem - whom
 wie - how
+viel - much (continuous)
+viele - many (discrete)
 wie viel - how much
 wie veile - how many
+
+irgendwo - somewhere
+irdendwas - something
+irgendwer - somebody
+irgendwie - somehow
 
 # Answers 
 eigentlich nicht - not really
 
 # Nouns
+die Nachricht - the message
+die Nachrichten - the news
+die Benachrichtigung - the notification
+die Kunde - the client
 der Stuhl - the chair
 die Wohnung - the flat
 die Schlüssel - the key
@@ -48,6 +59,9 @@ die Führung - leadership
 die Mehrheit - the majority
 
 # Verbs
+bestimmen - to determin
+teilen - to share
+gehören - to belong
 treffen - to meet
 schlafen - to sleep
 wohnen - to live
@@ -60,6 +74,9 @@ benutzen - to use
 spielen - to play
 beweisen - to prove
 bezahlen - to pay
+bewegen - to move
+erklären - to explain
+
 schmecken - to taste
 sein - to be
 werden - to become
@@ -225,7 +242,7 @@ lustig - funny
 ernst - serious
 teuer - expensive
 billig - cheap
-kostenlos - free of charge
+kostenlos - free of charge/free
 langsam - slow
 schnell - fast
 interessant - interesting
@@ -294,7 +311,6 @@ hinter - behind
 # Sentences/common phrases
 Ich habe Durst - I'm thirsty/I am thirsty
 Mach’s gut - take it easy
-Oder - isn’t that true
 Einverstanden - agreed
 Viel Glück - good luck
 Toll - great
