@@ -23,6 +23,7 @@ etwas - something/some
 eigentlich nicht - not really
 
 # Nouns
+die Gewinne - the profit
 das Beispiel - example
 das Unternehmen - the business/company
 der Geschmack - the taste - the taste - the taste - the taste
@@ -65,6 +66,9 @@ die Führung - leadership
 die Mehrheit - the majority
 
 # Verbs
+folgen - to follow
+zum mit namen - to take away
+übernehmen - to take over
 blicken - to look (glance)
 sehen - to see/look
 zurückblicken - to look back
@@ -87,7 +91,6 @@ beweisen - to prove
 bezahlen - to pay
 bewegen - to move
 erklären - to explain
-
 schmecken - to taste
 sein - to be
 werden - to become
@@ -113,9 +116,11 @@ oder - or
 denn - because
 aber - but
 sodern - but (instead/rather)
-
+trotzdem - nevertheless
 
 # Adverbs
+eigentlich - actually
+wirklich - really
 je - ever
 immer - always
 noch nie - never
@@ -139,7 +144,6 @@ Geist - mind
 Der Baum - the tree
 süß- sweet
 Öl - oil
-Zum mit namen - to take away
 Eigen - own
 Eigentums - property
 wohnungen - apartment
@@ -231,6 +235,7 @@ das Haustier - pet
 das Tiere - animal
 
 # Adjectives
+wirtschaftliche - economic
 sogenannte - so called
 weltweit - worldwide
 beliebt - popular
@@ -250,6 +255,7 @@ schön - beautiful
 hässlich - ugly
 einfach - easy
 schwer - difficult/hard
+schwieriger - difficult
 weit - far
 nahe - near
 fertig - finished
