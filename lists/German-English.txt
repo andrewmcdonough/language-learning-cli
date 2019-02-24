@@ -23,6 +23,10 @@ etwas - something/some
 eigentlich nicht - not really
 
 # Nouns
+die Schicht - the layer
+die Geschichte - the history
+der Eingang - the entrance
+der Ausgang - the exit
 die Gewinne - the profit
 das Beispiel - example
 das Unternehmen - the business/company
@@ -333,6 +337,7 @@ zum - to the
 vor - in front/before
 hinter - behind
 bis zu - up to
+durch - through
 
 
 # Sentences/common phrases
