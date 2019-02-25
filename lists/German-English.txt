@@ -48,7 +48,6 @@ der Teil - part
 das Spielzeug - the toy
 die Decke - the blanket
 die Ecke - the corner
-das Obst - the fruit
 die Blume - flower
 der Mann - man
 die Frau - woman
@@ -70,6 +69,8 @@ die Führung - leadership
 die Mehrheit - the majority
 
 # Verbs
+gründen - to found/to set up/to launch
+beeinflussen - to influence
 folgen - to follow
 zum mit namen - to take away
 übernehmen - to take over
@@ -121,8 +122,11 @@ denn - because
 aber - but
 sodern - but (instead/rather)
 trotzdem - nevertheless
+ob - if/whether
+wenn - if
 
 # Adverbs
+außerdem - also/moreover
 eigentlich - actually
 wirklich - really
 je - ever
@@ -239,6 +243,7 @@ das Haustier - pet
 das Tiere - animal
 
 # Adjectives
+berühmt - famous
 wirtschaftliche - economic
 sogenannte - so called
 weltweit - worldwide
