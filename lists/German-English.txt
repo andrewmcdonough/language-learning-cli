@@ -69,6 +69,15 @@ die Führung - leadership
 die Mehrheit - the majority
 
 # Verbs
+kosten - to cost
+lesen - to read
+lieben - to love
+nehmen - to take
+bedeuten - to mean
+öffnen - to open
+probieren - to try out
+regnen - to rain
+reisen - to travel
 gründen - to found/to set up/to launch
 beeinflussen - to influence
 folgen - to follow
@@ -86,7 +95,13 @@ treffen - to meet
 schlafen - to sleep
 wohnen - to live
 bekommen - to get
+bestellen - to order
+besuchen - to visit
 denken - to think
+finden - to find
+fliegen - to fly
+helfen - to help
+kaufen - to buy
 drücken - to press
 drehen - to turn
 brauchen - to need
@@ -97,6 +112,11 @@ bezahlen - to pay
 bewegen - to move
 erklären - to explain
 schmecken - to taste
+schreiben - to write
+setzen - to set
+singen - to sing
+suchen - to search
+vergessen - to forget
 sein - to be
 werden - to become
 wiederholen - to repeat
@@ -111,6 +131,8 @@ sitzen - to sit
 langweilen - to bore
 ringen - to wrestle
 schlagen - to beat
+warten - to wait
+zeigen - to show
 
 # Conjunctions
 
